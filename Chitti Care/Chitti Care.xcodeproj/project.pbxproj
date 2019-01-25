@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B01B9BD21C8DF4D0041BA48 /* CustomerInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B01B9BC21C8DF4D0041BA48 /* CustomerInfoView.xib */; };
+		5B01B9BF21C8E9D70041BA48 /* CustomerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B01B9BE21C8E9D70041BA48 /* CustomerInfoView.swift */; };
+		5B11E8FE21CA369000063412 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11E8FD21CA369000063412 /* NavigationController.swift */; };
+		5B1DD14521C4F0B900757973 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DD14421C4F0B900757973 /* TableViewCell.swift */; };
+		5B1DD14721C4F94A00757973 /* BidPayableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DD14621C4F94A00757973 /* BidPayableVC.swift */; };
+		5B1DD14921C4F96900757973 /* CompanyInvestmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DD14821C4F96900757973 /* CompanyInvestmentVC.swift */; };
+		5B1DD14B21C4F97F00757973 /* AgentsPerformanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DD14A21C4F97F00757973 /* AgentsPerformanceVC.swift */; };
+		5B1DD14D21C4F99200757973 /* OutstandingDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DD14C21C4F99200757973 /* OutstandingDetailsVC.swift */; };
+		5B1DD14F21C4F9AA00757973 /* CollectionDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DD14E21C4F9AA00757973 /* CollectionDetailsVC.swift */; };
+		5B1DD15121C4F9C500757973 /* CustomerInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DD15021C4F9C500757973 /* CustomerInfoVC.swift */; };
+		5B1DD15621C7B77D00757973 /* CustomerInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DD15521C7B77D00757973 /* CustomerInfoTableViewCell.swift */; };
+		5B803B6521C39BDB00BB9E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B803B6421C39BDB00BB9E38 /* AppDelegate.swift */; };
+		5B803B6721C39BDB00BB9E38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B803B6621C39BDB00BB9E38 /* LoginViewController.swift */; };
+		5B803B6A21C39BDB00BB9E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B803B6821C39BDB00BB9E38 /* Main.storyboard */; };
+		5B803B6C21C39BE500BB9E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B803B6B21C39BE500BB9E38 /* Assets.xcassets */; };
+		5B803B6F21C39BE500BB9E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B803B6D21C39BE500BB9E38 /* LaunchScreen.storyboard */; };
+		5B803B7A21C39BE500BB9E38 /* Chitti_CareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B803B7921C39BE500BB9E38 /* Chitti_CareTests.swift */; };
+		5B803B8521C39BE500BB9E38 /* Chitti_CareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B803B8421C39BE500BB9E38 /* Chitti_CareUITests.swift */; };
+		5B803B9621C3C6E600BB9E38 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B803B9521C3C6E600BB9E38 /* HttpClient.swift */; };
+		5B803B9821C3C6EC00BB9E38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B803B9721C3C6EC00BB9E38 /* Constants.swift */; };
+		5B803BA021C3D21300BB9E38 /* AlertSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B803B9F21C3D21200BB9E38 /* AlertSingleton.swift */; };
+		5B803BA221C3D5B200BB9E38 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B803BA121C3D5B200BB9E38 /* SecondVC.swift */; };
+		5B803BA621C3DADA00BB9E38 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B803BA521C3DADA00BB9E38 /* APIManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B803B7621C39BE500BB9E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B803B5921C39BDB00BB9E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B803B6021C39BDB00BB9E38;
+			remoteInfo = "Chitti Care";
+		};
+		5B803B8121C39BE500BB9E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B803B5921C39BDB00BB9E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B803B6021C39BDB00BB9E38;
+			remoteInfo = "Chitti Care";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B01B9BC21C8DF4D0041BA48 /* CustomerInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomerInfoView.xib; sourceTree = "<group>"; };
+		5B01B9BE21C8E9D70041BA48 /* CustomerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfoView.swift; sourceTree = "<group>"; };
+		5B11E8FD21CA369000063412 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		5B1DD14421C4F0B900757973 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5B1DD14621C4F94A00757973 /* BidPayableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidPayableVC.swift; sourceTree = "<group>"; };
+		5B1DD14821C4F96900757973 /* CompanyInvestmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInvestmentVC.swift; sourceTree = "<group>"; };
+		5B1DD14A21C4F97F00757973 /* AgentsPerformanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentsPerformanceVC.swift; sourceTree = "<group>"; };
+		5B1DD14C21C4F99200757973 /* OutstandingDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutstandingDetailsVC.swift; sourceTree = "<group>"; };
+		5B1DD14E21C4F9AA00757973 /* CollectionDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailsVC.swift; sourceTree = "<group>"; };
+		5B1DD15021C4F9C500757973 /* CustomerInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfoVC.swift; sourceTree = "<group>"; };
+		5B1DD15521C7B77D00757973 /* CustomerInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfoTableViewCell.swift; sourceTree = "<group>"; };
+		5B803B6121C39BDB00BB9E38 /* Chitti Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chitti Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B803B6421C39BDB00BB9E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B803B6621C39BDB00BB9E38 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5B803B6921C39BDB00BB9E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B803B6B21C39BE500BB9E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B803B6E21C39BE500BB9E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B803B7021C39BE500BB9E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B803B7521C39BE500BB9E38 /* Chitti CareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chitti CareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B803B7921C39BE500BB9E38 /* Chitti_CareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chitti_CareTests.swift; sourceTree = "<group>"; };
+		5B803B7B21C39BE500BB9E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B803B8021C39BE500BB9E38 /* Chitti CareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chitti CareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B803B8421C39BE500BB9E38 /* Chitti_CareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chitti_CareUITests.swift; sourceTree = "<group>"; };
+		5B803B8621C39BE500BB9E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B803B9521C3C6E600BB9E38 /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		5B803B9721C3C6EC00BB9E38 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5B803B9F21C3D21200BB9E38 /* AlertSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertSingleton.swift; sourceTree = "<group>"; };
+		5B803BA121C3D5B200BB9E38 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		5B803BA521C3DADA00BB9E38 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B803B5E21C39BDB00BB9E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B803B7221C39BE500BB9E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B803B7D21C39BE500BB9E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B11E8F821CA254700063412 /* BidPayable */ = {
+			isa = PBXGroup;
+			children = (
+				5B1DD14621C4F94A00757973 /* BidPayableVC.swift */,
+			);
+			path = BidPayable;
+			sourceTree = "<group>";
+		};
+		5B11E8F921CA255400063412 /* AgentPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				5B1DD14A21C4F97F00757973 /* AgentsPerformanceVC.swift */,
+			);
+			path = AgentPerformance;
+			sourceTree = "<group>";
+		};
+		5B11E8FA21CA256B00063412 /* CompanyInvestment */ = {
+			isa = PBXGroup;
+			children = (
+				5B1DD14821C4F96900757973 /* CompanyInvestmentVC.swift */,
+			);
+			path = CompanyInvestment;
+			sourceTree = "<group>";
+		};
+		5B11E8FB21CA257B00063412 /* OutstandingDetails */ = {
+			isa = PBXGroup;
+			children = (
+				5B1DD14C21C4F99200757973 /* OutstandingDetailsVC.swift */,
+			);
+			path = OutstandingDetails;
+			sourceTree = "<group>";
+		};
+		5B11E8FC21CA259100063412 /* CollectionDetails */ = {
+			isa = PBXGroup;
+			children = (
+				5B1DD14E21C4F9AA00757973 /* CollectionDetailsVC.swift */,
+			);
+			path = CollectionDetails;
+			sourceTree = "<group>";
+		};
+		5B1DD15221C7B70300757973 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5B803B6621C39BDB00BB9E38 /* LoginViewController.swift */,
+				5B11E8FD21CA369000063412 /* NavigationController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		5B1DD15321C7B72200757973 /* PersonalInfoControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B803BA121C3D5B200BB9E38 /* SecondVC.swift */,
+				5B1DD14421C4F0B900757973 /* TableViewCell.swift */,
+			);
+			path = PersonalInfoControllers;
+			sourceTree = "<group>";
+		};
+		5B1DD15421C7B74400757973 /* CustomerInfoController */ = {
+			isa = PBXGroup;
+			children = (
+				5B1DD15021C4F9C500757973 /* CustomerInfoVC.swift */,
+				5B1DD15521C7B77D00757973 /* CustomerInfoTableViewCell.swift */,
+				5B01B9BC21C8DF4D0041BA48 /* CustomerInfoView.xib */,
+				5B01B9BE21C8E9D70041BA48 /* CustomerInfoView.swift */,
+			);
+			path = CustomerInfoController;
+			sourceTree = "<group>";
+		};
+		5B803B5821C39BDB00BB9E38 = {
+			isa = PBXGroup;
+			children = (
+				5B803B6321C39BDB00BB9E38 /* Chitti Care */,
+				5B803B7821C39BE500BB9E38 /* Chitti CareTests */,
+				5B803B8321C39BE500BB9E38 /* Chitti CareUITests */,
+				5B803B6221C39BDB00BB9E38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B803B6221C39BDB00BB9E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B803B6121C39BDB00BB9E38 /* Chitti Care.app */,
+				5B803B7521C39BE500BB9E38 /* Chitti CareTests.xctest */,
+				5B803B8021C39BE500BB9E38 /* Chitti CareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B803B6321C39BDB00BB9E38 /* Chitti Care */ = {
+			isa = PBXGroup;
+			children = (
+				5B803B9C21C3CF4B00BB9E38 /* View */,
+				5B803B9B21C3CF3E00BB9E38 /* Controller */,
+				5B803B9421C3C4A100BB9E38 /* Model */,
+				5B803B6421C39BDB00BB9E38 /* AppDelegate.swift */,
+				5B803B7021C39BE500BB9E38 /* Info.plist */,
+			);
+			path = "Chitti Care";
+			sourceTree = "<group>";
+		};
+		5B803B7821C39BE500BB9E38 /* Chitti CareTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B803B7921C39BE500BB9E38 /* Chitti_CareTests.swift */,
+				5B803B7B21C39BE500BB9E38 /* Info.plist */,
+			);
+			path = "Chitti CareTests";
+			sourceTree = "<group>";
+		};
+		5B803B8321C39BE500BB9E38 /* Chitti CareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B803B8421C39BE500BB9E38 /* Chitti_CareUITests.swift */,
+				5B803B8621C39BE500BB9E38 /* Info.plist */,
+			);
+			path = "Chitti CareUITests";
+			sourceTree = "<group>";
+		};
+		5B803B9421C3C4A100BB9E38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B803BA521C3DADA00BB9E38 /* APIManager.swift */,
+				5B803B9F21C3D21200BB9E38 /* AlertSingleton.swift */,
+				5B803B9721C3C6EC00BB9E38 /* Constants.swift */,
+				5B803B9521C3C6E600BB9E38 /* HttpClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B803B9B21C3CF3E00BB9E38 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B11E8FC21CA259100063412 /* CollectionDetails */,
+				5B11E8FB21CA257B00063412 /* OutstandingDetails */,
+				5B11E8FA21CA256B00063412 /* CompanyInvestment */,
+				5B11E8F921CA255400063412 /* AgentPerformance */,
+				5B11E8F821CA254700063412 /* BidPayable */,
+				5B1DD15421C7B74400757973 /* CustomerInfoController */,
+				5B1DD15321C7B72200757973 /* PersonalInfoControllers */,
+				5B1DD15221C7B70300757973 /* LoginViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B803B9C21C3CF4B00BB9E38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B803B6D21C39BE500BB9E38 /* LaunchScreen.storyboard */,
+				5B803B6B21C39BE500BB9E38 /* Assets.xcassets */,
+				5B803B6821C39BDB00BB9E38 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B803B6021C39BDB00BB9E38 /* Chitti Care */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B803B8921C39BE500BB9E38 /* Build configuration list for PBXNativeTarget "Chitti Care" */;
+			buildPhases = (
+				5B803B5D21C39BDB00BB9E38 /* Sources */,
+				5B803B5E21C39BDB00BB9E38 /* Frameworks */,
+				5B803B5F21C39BDB00BB9E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chitti Care";
+			productName = "Chitti Care";
+			productReference = 5B803B6121C39BDB00BB9E38 /* Chitti Care.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B803B7421C39BE500BB9E38 /* Chitti CareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B803B8C21C39BE500BB9E38 /* Build configuration list for PBXNativeTarget "Chitti CareTests" */;
+			buildPhases = (
+				5B803B7121C39BE500BB9E38 /* Sources */,
+				5B803B7221C39BE500BB9E38 /* Frameworks */,
+				5B803B7321C39BE500BB9E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B803B7721C39BE500BB9E38 /* PBXTargetDependency */,
+			);
+			name = "Chitti CareTests";
+			productName = "Chitti CareTests";
+			productReference = 5B803B7521C39BE500BB9E38 /* Chitti CareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B803B7F21C39BE500BB9E38 /* Chitti CareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B803B8F21C39BE500BB9E38 /* Build configuration list for PBXNativeTarget "Chitti CareUITests" */;
+			buildPhases = (
+				5B803B7C21C39BE500BB9E38 /* Sources */,
+				5B803B7D21C39BE500BB9E38 /* Frameworks */,
+				5B803B7E21C39BE500BB9E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B803B8221C39BE500BB9E38 /* PBXTargetDependency */,
+			);
+			name = "Chitti CareUITests";
+			productName = "Chitti CareUITests";
+			productReference = 5B803B8021C39BE500BB9E38 /* Chitti CareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B803B5921C39BDB00BB9E38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = KireetiSoftSolutions;
+				TargetAttributes = {
+					5B803B6021C39BDB00BB9E38 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5B803B7421C39BE500BB9E38 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5B803B6021C39BDB00BB9E38;
+					};
+					5B803B7F21C39BE500BB9E38 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5B803B6021C39BDB00BB9E38;
+					};
+				};
+			};
+			buildConfigurationList = 5B803B5C21C39BDB00BB9E38 /* Build configuration list for PBXProject "Chitti Care" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B803B5821C39BDB00BB9E38;
+			productRefGroup = 5B803B6221C39BDB00BB9E38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B803B6021C39BDB00BB9E38 /* Chitti Care */,
+				5B803B7421C39BE500BB9E38 /* Chitti CareTests */,
+				5B803B7F21C39BE500BB9E38 /* Chitti CareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B803B5F21C39BDB00BB9E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B01B9BD21C8DF4D0041BA48 /* CustomerInfoView.xib in Resources */,
+				5B803B6F21C39BE500BB9E38 /* LaunchScreen.storyboard in Resources */,
+				5B803B6C21C39BE500BB9E38 /* Assets.xcassets in Resources */,
+				5B803B6A21C39BDB00BB9E38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B803B7321C39BE500BB9E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B803B7E21C39BE500BB9E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B803B5D21C39BDB00BB9E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1DD15621C7B77D00757973 /* CustomerInfoTableViewCell.swift in Sources */,
+				5B1DD14D21C4F99200757973 /* OutstandingDetailsVC.swift in Sources */,
+				5B803BA021C3D21300BB9E38 /* AlertSingleton.swift in Sources */,
+				5B1DD14521C4F0B900757973 /* TableViewCell.swift in Sources */,
+				5B1DD14B21C4F97F00757973 /* AgentsPerformanceVC.swift in Sources */,
+				5B11E8FE21CA369000063412 /* NavigationController.swift in Sources */,
+				5B803BA221C3D5B200BB9E38 /* SecondVC.swift in Sources */,
+				5B1DD14921C4F96900757973 /* CompanyInvestmentVC.swift in Sources */,
+				5B1DD14721C4F94A00757973 /* BidPayableVC.swift in Sources */,
+				5B803B9821C3C6EC00BB9E38 /* Constants.swift in Sources */,
+				5B1DD15121C4F9C500757973 /* CustomerInfoVC.swift in Sources */,
+				5B01B9BF21C8E9D70041BA48 /* CustomerInfoView.swift in Sources */,
+				5B803B6721C39BDB00BB9E38 /* LoginViewController.swift in Sources */,
+				5B803B6521C39BDB00BB9E38 /* AppDelegate.swift in Sources */,
+				5B803B9621C3C6E600BB9E38 /* HttpClient.swift in Sources */,
+				5B1DD14F21C4F9AA00757973 /* CollectionDetailsVC.swift in Sources */,
+				5B803BA621C3DADA00BB9E38 /* APIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B803B7121C39BE500BB9E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B803B7A21C39BE500BB9E38 /* Chitti_CareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B803B7C21C39BE500BB9E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B803B8521C39BE500BB9E38 /* Chitti_CareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B803B7721C39BE500BB9E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B803B6021C39BDB00BB9E38 /* Chitti Care */;
+			targetProxy = 5B803B7621C39BE500BB9E38 /* PBXContainerItemProxy */;
+		};
+		5B803B8221C39BE500BB9E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B803B6021C39BDB00BB9E38 /* Chitti Care */;
+			targetProxy = 5B803B8121C39BE500BB9E38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B803B6821C39BDB00BB9E38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B803B6921C39BDB00BB9E38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B803B6D21C39BE500BB9E38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B803B6E21C39BE500BB9E38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B803B8721C39BE500BB9E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B803B8821C39BE500BB9E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B803B8A21C39BE500BB9E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chitti Care/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kireeti.Chitti-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B803B8B21C39BE500BB9E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chitti Care/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kireeti.Chitti-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B803B8D21C39BE500BB9E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chitti CareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kireeti.Chitti-CareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chitti Care.app/Chitti Care";
+			};
+			name = Debug;
+		};
+		5B803B8E21C39BE500BB9E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chitti CareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kireeti.Chitti-CareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chitti Care.app/Chitti Care";
+			};
+			name = Release;
+		};
+		5B803B9021C39BE500BB9E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chitti CareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kireeti.Chitti-CareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chitti Care";
+			};
+			name = Debug;
+		};
+		5B803B9121C39BE500BB9E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chitti CareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kireeti.Chitti-CareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chitti Care";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B803B5C21C39BDB00BB9E38 /* Build configuration list for PBXProject "Chitti Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B803B8721C39BE500BB9E38 /* Debug */,
+				5B803B8821C39BE500BB9E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B803B8921C39BE500BB9E38 /* Build configuration list for PBXNativeTarget "Chitti Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B803B8A21C39BE500BB9E38 /* Debug */,
+				5B803B8B21C39BE500BB9E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B803B8C21C39BE500BB9E38 /* Build configuration list for PBXNativeTarget "Chitti CareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B803B8D21C39BE500BB9E38 /* Debug */,
+				5B803B8E21C39BE500BB9E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B803B8F21C39BE500BB9E38 /* Build configuration list for PBXNativeTarget "Chitti CareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B803B9021C39BE500BB9E38 /* Debug */,
+				5B803B9121C39BE500BB9E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B803B5921C39BDB00BB9E38 /* Project object */;
+}
